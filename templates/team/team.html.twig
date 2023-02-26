@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} {{ parent() }} | L'équipe {% endblock %}
+
+{% block body %}
+    <h1>Notre équipe</h1>
+    <br>
+    <div>
+        <span>Une équie de trois passionnés à votre service pour tout projet immobilier.</span>
+    </div>
+    <div class="team">
+        <div class="person">
+            <img src="{{ asset('img/roland.jpg') }}" alt="Person 1">
+            <h3>Roland Culais</h3>
+            <p>Responsable d'agence</p>
+        </div>
+        <div class="person">
+            <img src="{{ asset('img/anna.jpeg') }}" alt="Person 2">
+            <h3>Anna Conda</h3>
+            <p>Négociatrice immobilière</p>
+        </div>
+        <div class="person">
+            <img src="{{ asset('img/harry.jpg') }}" alt="Person 3">
+            <h3>Harry Cover</h3>
+            <p>Le stagiaire à tout faire</p>
+        </div>
+    </div>
+{% endblock %}

@@ -6,12 +6,31 @@ body{
     text-decoration: none;
 }
 
-.header{
 
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none; /* Pour supprimer les puces de la liste */
+    font-size: larger;
 }
 
-.footer{
+li {
+    margin: 0 35px; /* Pour ajouter un espace entre chaque élément de la liste */
+}
 
+.header{
+    font-size: x-large;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 96vh;
+    height: 100px; /* Pour définir la hauteur du footer */
+}
+
+.ulFooter{
+    text-align: right;
 }
 
 a {
@@ -21,4 +40,65 @@ a {
 
 a:hover {
     color: #BC956B;
+}
+
+.container{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.person {
+    flex: 1;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.person img {
+    width: 90%;
+    border-radius: 50%;
+}
+
+.person h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.person p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
 }

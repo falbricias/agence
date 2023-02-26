@@ -11,28 +11,29 @@
     <title>{% block title %}Agence{% endblock %}</title>
 </head>
 <body>
-<div class="header">
-<header>
-    {% include 'menu/nav.html.twig' %}
-</header>
-</div>
 
-<h1>Okay !</h1>
+    <div class="container">
 
-{% block body %}{% endblock %}
+        <div class="header">
+            <header>{% include 'menu/nav.html.twig' %}</header>
+        </div>
 
-<style>
-    body{
-        background-image: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.5)), url("{{ asset('img/home.jpg')}}");
-        height: 97.8vh;
-    }
-</style>
+        {% block body %}{% endblock %}
 
-<div class="footer">
-<footer>
-    {% include 'menu/footer.html.twig' %}
-</footer>
-</div>
+        <style>
+            body{
+                background-image: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.5)), url("{{ asset('img/home.jpg')}}");
+                height: 96vh;
+            }
+        </style>
+
+        <div class="footer">
+            <footer>
+                {% include 'menu/footer.html.twig' %}
+            </footer>
+        </div>
+
+    </div>
 
 </body>
 </html>

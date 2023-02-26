@@ -4,21 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="706597f9-d9e4-4761-8d86-48dbada8be3b" name="Changes" comment="Paramétrage environnement de travail">
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/home.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/house_favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/annex/cgu.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/annex/mentions.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/home.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/menu/footer.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/menu/nav.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="706597f9-d9e4-4761-8d86-48dbada8be3b" name="Changes" comment="Commit samedi">
+      <change afterPath="$PROJECT_DIR$/public/img/anna.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/harry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/roland.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/team/team.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/annex/cgu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/annex/cgu.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/home.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu/footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu/nav.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu/nav.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +230,8 @@
       <workItem from="1677226386756" duration="659000" />
       <workItem from="1677227060561" duration="695000" />
       <workItem from="1677228405067" duration="8666000" />
-      <workItem from="1677349058588" duration="616000" />
+      <workItem from="1677349058588" duration="2961000" />
+      <workItem from="1677405524485" duration="4693000" />
     </task>
     <task id="LOCAL-00001" summary="Paramétrage environnement de travail">
       <created>1677229574078</created>
@@ -241,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677229574078</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit samedi">
+      <created>1677349817505</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677349817505</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +269,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Paramétrage environnement de travail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Paramétrage environnement de travail" />
+    <MESSAGE value="Commit samedi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit samedi" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

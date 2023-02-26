@@ -31,4 +31,11 @@ class MainController extends AbstractController
     }
 
 
+    #[Route('/team', name: 'team')]
+    public function team(): Response
+    {
+        return $this->render('team/team.html.twig');
+    }
+
+
 }

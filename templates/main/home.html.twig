@@ -1,10 +1,20 @@
 {% extends 'base.html.twig' %}
 
 
-{% block title %} {{ parent() }} | Home {% endblock %}
+{% block title %} {{ parent() }} | Accueil {% endblock %}
 
 
 {% block body %}
 
+    <header>
+        <h1>Agence immobilière Zombimmo</h1>
+        <p style="font-style: italic">L'agence faite pour vous !</p>
+    </header>
+
+    <section class="hero">
+        <h2>Trouvez la maison de vos rêves</h2>
+        <p>Notre agence immobilière vous aide à trouver la maison de vos rêves dans la région.</p>
+        <a href="#" class="btn">Voir nos propriétés</a>
+    </section>
 
 {% endblock %}
