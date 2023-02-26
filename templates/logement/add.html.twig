@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {{ parent() }} | Ajout
+{% endblock %}
+
+{% block body %}
+
+    <h1>Ajout d'un logement à la vente ou à la location</h1>
+
+    {{ form_start(logementForm) }}
+
+    {{ form_widget(logementForm) }}
+    <button>Valider</button>
+
+    {{ form_end(logementForm) }}
+
+
+
+
+{% endblock %}
+

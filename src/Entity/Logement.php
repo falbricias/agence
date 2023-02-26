@@ -7,6 +7,7 @@ use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: LogementRepository::class)]
+#[ORM\HasLifecycleCallbacks]
 class Logement
 {
     #[ORM\Id]
@@ -167,5 +168,12 @@ class Logement
         $this->dateParution = $dateParution;
 
         return $this;
+    }
+
+    #[ORM\PrePersist]
+    public function setCreatedAtValue(): void
+    {
+        //Sette automatiquement une date d'ajout d'un logement par l'utilisateur à la date du jour
+        $this->setDateParution(new \DateTime());
     }
 }
