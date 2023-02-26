@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <h1>Notre bien en détails</h1>
+
+    <div>
+        <p>Type : {{ logement.type }}</p>
+        <p>Modalité : {{ logement.modalite }}</p>
+        <p>Superficie : {{ logement.superficie | number_format(2, ',', ' ') }} m²</p>
+        <p>Nombre de pièces : {{ logement.nbPieces }}</p>
+        <p>Adresse : {{ logement.adresse }}</p>
+        <p>Piscine : {% if logement.piscine> 0 %} Oui {% else %} Non {% endif %}</p>
+        {% if logement.surfaceExterieure > 0 %}
+        <p>Surface extérieure : {{ logement.surfaceExterieure | number_format(2, ',', ' ') }} m²</p>
+        {% endif %}
+        <p>Garage : {% if logement.garage > 0 %} Oui {% else %} Non {% endif %} </p>
+        <p>Date de parution : {{ logement.dateParution | date('d-m-Y') }}</p>
+        <br>
+        {% if logement.modalite == 'Location' %}
+        <p>Loyer mensuel : {{ logement.prix | number_format(2, ',', ' ') }} €</p>
+        {% else %}
+        <p>Prix de vente : {{ logement.prix | number_format(2, ',', ' ') }} €</p>
+        {% endif %}
+    </div>
+
+    <a href="{{ path('logement_list') }}" class="btn">Retour aux logements</a>
+
+
+
+{% endblock %}
+
+{% block title %}
+    {{ parent() }} | Details
+{% endblock %}
