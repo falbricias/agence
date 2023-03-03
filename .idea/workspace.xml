@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="706597f9-d9e4-4761-8d86-48dbada8be3b" name="Changes" comment="MAJ agence">
-      <change afterPath="$PROJECT_DIR$/src/Form/LogementType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/logement/add.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AgenceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AgenceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Logement.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Logement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/menu/nav.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu/nav.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +172,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
       <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
     </include_path>
   </component>
   <component name="ProjectId" id="2MB1pZvaVD39kL9AM9BW5tPSNVr" />
@@ -226,7 +230,9 @@
       <workItem from="1677228405067" duration="8666000" />
       <workItem from="1677349058588" duration="2961000" />
       <workItem from="1677405524485" duration="5696000" />
-      <workItem from="1677428454413" duration="6892000" />
+      <workItem from="1677428454413" duration="7100000" />
+      <workItem from="1677485703126" duration="103000" />
+      <workItem from="1677690607547" duration="1977000" />
     </task>
     <task id="LOCAL-00001" summary="Paramétrage environnement de travail">
       <created>1677229574078</created>
@@ -270,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677433709310</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="MAJ agence">
+      <created>1677435679033</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677435679033</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
